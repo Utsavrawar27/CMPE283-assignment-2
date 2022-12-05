@@ -33,6 +33,7 @@
 u32 kvm_cpu_caps[NR_KVM_CPU_CAPS] __read_mostly;
 EXPORT_SYMBOL_GPL(kvm_cpu_caps);
 
+
 u32 xstate_required_size(u64 xstate_bv, bool compacted)
 {
 	int feature_bit = 0;
@@ -1493,6 +1494,13 @@ bool kvm_cpuid(struct kvm_vcpu *vcpu, u32 *eax, u32 *ebx,
 }
 EXPORT_SYMBOL_GPL(kvm_cpuid);
 
+// Assignment02 changes
+
+u32 total_exits = 0;
+u64 total_exit_time = 0;
+EXPORT_SYMBOL(total_exits);
+EXPORT_SYMBOL(total_exit_time);
+
 int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 {
 	u32 eax, ebx, ecx, edx;
@@ -1502,7 +1510,25 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 
 	eax = kvm_rax_read(vcpu);
 	ecx = kvm_rcx_read(vcpu);
+
+	// leaf node 0x4FFFFFFC
+	if (eax == 0x4FFFFFFC) {
+		eax = total_exits;
+		printk(KERN_INFO "0x4FFFFFFC Total exits = %d\n", total_exits);
+	}
+	// leaf node 0x4FFFFFFD
+	else if (eax == 0x4FFFFFFD) {
+
+		u64 tmp_time;
+		tmp_time = total_exit_time;
+                printk(KERN_INFO "0x4FFFFFFD Total time in vmm = %llu\n", total_exit_time);
+
+		ebx = (tmp_time >> 32);
+		ecx = (tmp_time & 0xFFFFFFFF);
+	}
+	else {
 	kvm_cpuid(vcpu, &eax, &ebx, &ecx, &edx, false);
+	}
 	kvm_rax_write(vcpu, eax);
 	kvm_rbx_write(vcpu, ebx);
 	kvm_rcx_write(vcpu, ecx);
