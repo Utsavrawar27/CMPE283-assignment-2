@@ -17,7 +17,8 @@ Utsav Rawat
 To enable nested virtualization for VMs running on Windows 11
 Setup an Ubuntu virtual machine using VMware® Workstation. Enable the Virtualize Intel VT-x/EPT setting under Virtual Machine Settings > Hardware > Device > Processor. 
 By navigating to the virtual machine's settings, as shown below.
-"C:\Users\Utsav Rawat\OneDrive\Pictures\VM-Assign\Screenshot 2022-12-05 143552.png"
+![Screenshot 2022-12-05 143552](https://user-images.githubusercontent.com/40047632/205778990-40bed71b-213b-4da0-bd61-e9982caabd5c.png)
+
 
 ### Steps:
 **1. Install	git	using	following	commands:**
@@ -41,8 +42,8 @@ By navigating to the virtual machine's settings, as shown below.
 - apt-get install make
 
 **5. Change the .config file:Replace (uname -r)**
-- cp /boot/config-$(uname -r) ./.config
-- example: cp /boot/config-5.19.0-26-generic ./.config
+- cp /boot/config-$(uname -r) ./.config <br />
+  example: cp /boot/config-5.19.0-26-generic ./.config
 
 **6. Make oldconfig file. (Hold Enter,use the default for everything)**
 - sudo make oldconfig
@@ -51,7 +52,7 @@ By navigating to the virtual machine's settings, as shown below.
 - make -j 4 
 - make modules -j 4
 - make install -j 4
-- make modules_install -j 4
+- make modules_install -j 4 <br />
   These steps might need 2-3hr hours to complete for the first time.
 
 **8. Reboot the Ubuntu machine:**
@@ -80,7 +81,7 @@ We have to modified /linux/arch/x86/kvm/cpuid.c file and /linux/arch/x86/kvm/vmx
 ![image](https://user-images.githubusercontent.com/40047632/205774425-7e06dbad-cf0b-44d8-bb01-14f7c8ac2431.png)
 
 **13. To test our build, we need to create a new nested VM inside VMware® Workstation. The steps to create an nested VM are as follows:**
-* First installed below few libraries
+  First installed below few libraries
 - sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
 - sudo apt-get install qemu-system
 
