@@ -1494,12 +1494,25 @@ bool kvm_cpuid(struct kvm_vcpu *vcpu, u32 *eax, u32 *ebx,
 }
 EXPORT_SYMBOL_GPL(kvm_cpuid);
 
-// Assignment02 changes
+/* Assignment02 changes
 
 u32 total_exits = 0;
 u64 total_exit_time = 0;
 EXPORT_SYMBOL(total_exits);
 EXPORT_SYMBOL(total_exit_time);
+*/
+
+u32 total_exits = 0;
+EXPORT_SYMBOL(total_exits);
+
+u64 total_proc_cycles = 0;
+EXPORT_SYMBOL(total_proc_cycles);
+
+u64 exit_processing_times[69];
+EXPORT_SYMBOL(exit_processing_times);
+
+u64 exit_counts[69];
+EXPORT_SYMBOL(exit_counts);
 
 int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 {
@@ -1511,20 +1524,60 @@ int kvm_emulate_cpuid(struct kvm_vcpu *vcpu)
 	eax = kvm_rax_read(vcpu);
 	ecx = kvm_rcx_read(vcpu);
 
+// Assignment2
+
 	// leaf node 0x4FFFFFFC
-	if (eax == 0x4FFFFFFC) {
+	if (eax == 0x4FFFFFFC) 
+	{
 		eax = total_exits;
-		printk(KERN_INFO "0x4FFFFFFC Total exits = %d\n", total_exits);
+		ebx = 0;
+		ecx = 0;
+		edx = 0;
+		printk(KERN_INFO "0x4FFFFFFC TOTAL EXITS = %d", total_exits);
+	} 
+	else if (eax == 0x4FFFFFFD) 
+	{
+		printk(KERN_INFO "0x4FFFFFFD TOTAL EXIT CYCLE IN VMM = %llu\n", total_proc_cycles);
+		eax = 0;
+		ebx = (total_proc_cycles >> 32);
+		ecx = (total_proc_cycles & 0xFFFFFFFF);
+		edx = 0;
 	}
-	// leaf node 0x4FFFFFFD
-	else if (eax == 0x4FFFFFFD) {
 
-		u64 tmp_time;
-		tmp_time = total_exit_time;
-                printk(KERN_INFO "0x4FFFFFFD Total time in vmm = %llu\n", total_exit_time);
-
-		ebx = (tmp_time >> 32);
-		ecx = (tmp_time & 0xFFFFFFFF);
+//Assignment3
+	else if (eax == 0x4FFFFFFE)
+	{
+		if (ecx < 0 || ecx == 35 || ecx == 38 || ecx == 42 || ecx > 69)
+		{
+			printk(KERN_INFO "EXIT REASON : %d NOT DEFINED IN SDM", ecx);
+			eax = 0;	
+			ebx = 0;
+			ecx = 0;
+			edx = 0xFFFFFFFF;
+		}
+	       	else if (ecx == 3 || ecx == 4 || ecx == 5 || ecx == 6 || ecx == 11 || ecx == 16 || ecx == 17 || ecx == 33 || ecx == 34 || ecx == 51 || ecx == 63 || ecx == 64 || ecx == 66)
+		{
+			printk(KERN_INFO "EXIT REASON : %d NOT ENABLED IN KVM", ecx);
+			eax = 0;
+			ebx = 0;
+			ecx = 0;
+			edx = 0;
+		} else 
+		{
+			eax = exit_counts[ecx];
+			printk(KERN_INFO "0x4FFFFFFE EXIT NUMBER: %d, TOTAL EXITS : %d", ecx, eax);
+		}
+	} 
+	else if(eax == 0x4FFFFFFF)
+	{
+			u64 exit_time = exit_processing_times[ecx];
+			u32 low_32_bits = (u32)exit_time;
+			u32 high_32_bits = exit_time >> 32;
+			eax = 0;
+			ebx = high_32_bits;
+			ecx = low_32_bits;
+			edx = 0;
+			printk(KERN_INFO "0x4FFFFFFF TOTAL EXIT PROCESSING TIME : %llu", exit_time);
 	}
 	else {
 	kvm_cpuid(vcpu, &eax, &ebx, &ecx, &edx, false);
