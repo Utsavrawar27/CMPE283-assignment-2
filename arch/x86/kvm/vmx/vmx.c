@@ -6280,16 +6280,29 @@ void dump_vmcs(struct kvm_vcpu *vcpu)
  * The guest has exited.  See if we can fix it or if we need userspace
  * assistance.
  */
+
+extern u32 total_exits;
+extern u64 total_proc_cycles;
+extern u64 exit_processing_times[69];
+extern u64 exit_counts[69];
+
 static int __vmx_handle_exit(struct kvm_vcpu *vcpu, fastpath_t exit_fastpath)
 {
+
+	u64 enter_rdtsc = rdtsc();
 	struct vcpu_vmx *vmx = to_vmx(vcpu);
 	union vmx_exit_reason exit_reason = vmx->exit_reason;
 	u32 vectoring_info = vmx->idt_vectoring_info;
 	u16 exit_handler_index;
 
-	// Assignment02 changes
-	extern u32 total_exits;
+	
+	// extern u32 total_exits;
 	total_exits = total_exits+1;
+
+	if(exit_reason.basic < 70)
+	{
+		exit_counts[exit_reason.basic]++;
+	}
 
 	/*
 	 * Flush logged GPAs PML buffer, this will make dirty_bitmap more
@@ -6448,6 +6461,9 @@ static int __vmx_handle_exit(struct kvm_vcpu *vcpu, fastpath_t exit_fastpath)
 	if (!kvm_vmx_exit_handlers[exit_handler_index])
 		goto unexpected_vmexit;
 
+	total_proc_cycles = total_proc_cycles + (rdtsc() - enter_rdtsc);
+	exit_processing_times[exit_reason.basic] = exit_processing_times[exit_reason.basic] + (rdtsc() - enter_rdtsc);
+
 	return kvm_vmx_exit_handlers[exit_handler_index](vcpu);
 
 unexpected_vmexit:
@@ -6465,9 +6481,9 @@ unexpected_vmexit:
 
 static int vmx_handle_exit(struct kvm_vcpu *vcpu, fastpath_t exit_fastpath)
 {
-	// int ret = __vmx_handle_exit(vcpu, exit_fastpath);
+	int ret = __vmx_handle_exit(vcpu, exit_fastpath);
 
-	// Assignment02 changes
+	/* Assignment02 changes
 	u64 exit_start_time;
 	u64 exit_end_time;
 	u64 delta_exit_time;
@@ -6479,6 +6495,8 @@ static int vmx_handle_exit(struct kvm_vcpu *vcpu, fastpath_t exit_fastpath)
 	delta_exit_time  = exit_end_time - exit_start_time;
 
 	total_exit_time += delta_exit_time;
+	*/
+
 	/*
 	 * Exit to user space when bus lock detected to inform that there is
 	 * a bus lock in guest.
