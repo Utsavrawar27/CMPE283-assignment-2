@@ -118,20 +118,42 @@ We have to modified /linux/arch/x86/kvm/cpuid.c file and /linux/arch/x86/kvm/vmx
 
 # Question-3:
 1. Does the number of exits increase at a stable rate? <br />
-Ans- From the result of the first run and second run, not all exits increase at a stable rate. Most exits increase with distinct increment ratios depending on the exit type. Very few exits values remain the same. <br />
+From the result of the first run and second run, not all exits increase at a stable rate. Most exits increase with distinct increment ratios depending on the exit type. Very few exits values remain the same. <br />
 
 2. Are there more exits performed during certain VM operations? <br />
-Ans- Yes, more exits are performed during certain VM operations; whenever any application or browser runs, the exit increase but not at a stable rate. <br />
+Yes, more exits are performed during certain VM operations; whenever any application or browser runs, the exit increase but not at a stable rate. <br />
 
 3. Approximately how many exits does a full VM boot entail? <br />
-Ans- Total number of exits after full VM boot entail are around 377k. <br />
+Total number of exits after full VM boot entail are around 377k. <br />
 
 # Question-4:
 1. Of the exit types defined in the SDM, which are the most frequent? Least? <br />
-Ans- Most frequent exit type is 48, which is 'EPT violation'. <br />
+Most frequent exit type is 48, which is 'EPT violation'. <br />
 Least frequent exit type is 29 i.e 'MOV DR' and 47 i.e 'Access to LDTR or TR'
 
 ## Output Result:
+
+![image](https://user-images.githubusercontent.com/40047632/206957198-efadd921-5363-401b-ba04-8131647c3983.png)
+
+First Run Output:-
+![image](https://user-images.githubusercontent.com/40047632/206957242-6406bb74-7887-4d05-a7b8-e509afcdd65a.png)
+
+![image](https://user-images.githubusercontent.com/40047632/206957296-9f6cdbc9-6b14-4d23-a16f-4635a8a2fd13.png)
+
+![image](https://user-images.githubusercontent.com/40047632/206957329-d6ea255f-8f8f-49ee-b9ad-5d8d69ff8d29.png)
+
+![image](https://user-images.githubusercontent.com/40047632/206957349-80d33818-3f22-4d6f-8a35-393bb2d2b4fd.png)
+
+![image](https://user-images.githubusercontent.com/40047632/206957375-6807b1e1-b18b-4cc7-94b2-9aaa6e920824.png)
+
+After Boot Output:-
+![image](https://user-images.githubusercontent.com/40047632/206957550-15c8989c-642a-4e00-9c6a-87620e9e8edf.png)
+
+![image](https://user-images.githubusercontent.com/40047632/206957600-6d0a31b8-2aad-4429-b4ff-64adcf13f8f9.png)
+
+
+
+
 
 
 
