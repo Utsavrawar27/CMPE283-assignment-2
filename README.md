@@ -117,20 +117,20 @@ We have to modified /linux/arch/x86/kvm/cpuid.c file and /linux/arch/x86/kvm/vmx
 - `cpuid -l 0x4FFFFFFF`
 
 # Question-3:
-1. Does the number of exits increase at a stable rate? <br />
+**1. Does the number of exits increase at a stable rate?** <br />
 From the result of the first run and second run, not all exits increase at a stable rate. Most exits increase with distinct increment ratios depending on the exit type. Very few exits values remain the same. <br />
-[Outputfile-1](https://github.com/Utsavrawar27/CMPE283-assignment-3/blob/master/Documents/output-01) <br /)
-[Outputfile-2](https://github.com/Utsavrawar27/CMPE283-assignment-3/blob/master/Documents/output-02) <br /)
+[Outputfile-1](https://github.com/Utsavrawar27/CMPE283-assignment-3/blob/master/Documents/output-01) <br />
+[Outputfile-2](https://github.com/Utsavrawar27/CMPE283-assignment-3/blob/master/Documents/output-02) <br />
 
-2. Are there more exits performed during certain VM operations? <br />
+**2. Are there more exits performed during certain VM operations?** <br />
 Yes, more exits are performed during certain VM operations; whenever any application or browser runs, the exit increase but not at a stable rate. <br />
 
-3. Approximately how many exits does a full VM boot entail? <br />
+**3. Approximately how many exits does a full VM boot entail?** <br />
 Total number of exits after full VM boot entail are around 377k. <br />
-[Outputfile](https://github.com/Utsavrawar27/CMPE283-assignment-3/blob/master/Documents/output-3.txt) <br /)
+[Outputfile](https://github.com/Utsavrawar27/CMPE283-assignment-3/blob/master/Documents/output-3.txt) <br />
 
 # Question-4:
-1. Of the exit types defined in the SDM, which are the most frequent? Least? <br />
+**1. Of the exit types defined in the SDM, which are the most frequent? Least?** <br />
 Most frequent exit type is 48, which is 'EPT violation'. <br />
 Least frequent exit type is 29 i.e 'MOV DR' and 47 i.e 'Access to LDTR or TR'
 
