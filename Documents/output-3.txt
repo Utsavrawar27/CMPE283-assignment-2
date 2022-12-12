@@ -1,0 +1,394 @@
+Leaf Node CPUID(0x4FFFFFFC)
+
+CPUID(0x4FFFFFFC), All Type Total Exit Counter = 3777640 
+EAX = 3777640  EBX = 0 ECX = 0 EDX = 0 
+
+Leaf Node CPUID(0x4FFFFFFD)
+
+CPUID(0x4FFFFFFD), All Type Total Exit Cycles = 107623918 
+EAX = 0  EBX = 0 ECX = 107623918 EDX = 0 
+
+Leaf Node CPUID(0x4FFFFFFE)
+
+CPUID(0x4FFFFFFE), Type 0 Total Exit Counter = 18522 
+EAX = 18522  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 1 Total Exit Counter = 503791 
+EAX = 503791  EBX = 0 ECX = 1 EDX = 0 
+CPUID(0x4FFFFFFE), Type 2 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 2 EDX = 0 
+CPUID(0x4FFFFFFE), Type 3 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 4 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 5 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 6 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 7 Total Exit Counter = 130556 
+EAX = 130556  EBX = 0 ECX = 7 EDX = 0 
+CPUID(0x4FFFFFFE), Type 8 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 8 EDX = 0 
+CPUID(0x4FFFFFFE), Type 9 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 9 EDX = 0 
+CPUID(0x4FFFFFFE), Type 10 Total Exit Counter = 359976 
+EAX = 359976  EBX = 0 ECX = 10 EDX = 0 
+CPUID(0x4FFFFFFE), Type 11 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 12 Total Exit Counter = 209696 
+EAX = 209696  EBX = 0 ECX = 12 EDX = 0 
+CPUID(0x4FFFFFFE), Type 13 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 13 EDX = 0 
+CPUID(0x4FFFFFFE), Type 14 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 14 EDX = 0 
+CPUID(0x4FFFFFFE), Type 15 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 15 EDX = 0 
+CPUID(0x4FFFFFFE), Type 16 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 17 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 18 Total Exit Counter = 111 
+EAX = 111  EBX = 0 ECX = 18 EDX = 0 
+CPUID(0x4FFFFFFE), Type 19 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 19 EDX = 0 
+CPUID(0x4FFFFFFE), Type 20 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 20 EDX = 0 
+CPUID(0x4FFFFFFE), Type 21 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 21 EDX = 0 
+CPUID(0x4FFFFFFE), Type 22 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 22 EDX = 0 
+CPUID(0x4FFFFFFE), Type 23 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 23 EDX = 0 
+CPUID(0x4FFFFFFE), Type 24 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 24 EDX = 0 
+CPUID(0x4FFFFFFE), Type 25 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 25 EDX = 0 
+CPUID(0x4FFFFFFE), Type 26 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 26 EDX = 0 
+CPUID(0x4FFFFFFE), Type 27 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 27 EDX = 0 
+CPUID(0x4FFFFFFE), Type 28 Total Exit Counter = 131565 
+EAX = 131565  EBX = 0 ECX = 28 EDX = 0 
+CPUID(0x4FFFFFFE), Type 29 Total Exit Counter = 2 
+EAX = 2  EBX = 0 ECX = 29 EDX = 0 
+CPUID(0x4FFFFFFE), Type 30 Total Exit Counter = 136707 
+EAX = 136707  EBX = 0 ECX = 30 EDX = 0 
+CPUID(0x4FFFFFFE), Type 31 Total Exit Counter = 1933 
+EAX = 1933  EBX = 0 ECX = 31 EDX = 0 
+CPUID(0x4FFFFFFE), Type 32 Total Exit Counter = 825229 
+EAX = 825229  EBX = 0 ECX = 32 EDX = 0 
+CPUID(0x4FFFFFFE), Type 33 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 34 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 35 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+CPUID(0x4FFFFFFE), Type 36 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 36 EDX = 0 
+CPUID(0x4FFFFFFE), Type 37 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 37 EDX = 0 
+CPUID(0x4FFFFFFE), Type 38 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+CPUID(0x4FFFFFFE), Type 39 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 39 EDX = 0 
+CPUID(0x4FFFFFFE), Type 40 Total Exit Counter = 51818 
+EAX = 51818  EBX = 0 ECX = 40 EDX = 0 
+CPUID(0x4FFFFFFE), Type 41 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 41 EDX = 0 
+CPUID(0x4FFFFFFE), Type 42 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+CPUID(0x4FFFFFFE), Type 43 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 43 EDX = 0 
+CPUID(0x4FFFFFFE), Type 44 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 44 EDX = 0 
+CPUID(0x4FFFFFFE), Type 45 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 45 EDX = 0 
+CPUID(0x4FFFFFFE), Type 46 Total Exit Counter = 5 
+EAX = 5  EBX = 0 ECX = 46 EDX = 0 
+CPUID(0x4FFFFFFE), Type 47 Total Exit Counter = 2 
+EAX = 2  EBX = 0 ECX = 47 EDX = 0 
+CPUID(0x4FFFFFFE), Type 48 Total Exit Counter = 1135514 
+EAX = 1135514  EBX = 0 ECX = 48 EDX = 0 
+CPUID(0x4FFFFFFE), Type 49 Total Exit Counter = 272252 
+EAX = 272252  EBX = 0 ECX = 49 EDX = 0 
+CPUID(0x4FFFFFFE), Type 50 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 50 EDX = 0 
+CPUID(0x4FFFFFFE), Type 51 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 52 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 52 EDX = 0 
+CPUID(0x4FFFFFFE), Type 53 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 53 EDX = 0 
+CPUID(0x4FFFFFFE), Type 54 Total Exit Counter = 9 
+EAX = 9  EBX = 0 ECX = 54 EDX = 0 
+CPUID(0x4FFFFFFE), Type 55 Total Exit Counter = 3 
+EAX = 3  EBX = 0 ECX = 55 EDX = 0 
+CPUID(0x4FFFFFFE), Type 56 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 56 EDX = 0 
+CPUID(0x4FFFFFFE), Type 57 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 57 EDX = 0 
+CPUID(0x4FFFFFFE), Type 58 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 58 EDX = 0 
+CPUID(0x4FFFFFFE), Type 59 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 59 EDX = 0 
+CPUID(0x4FFFFFFE), Type 60 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 60 EDX = 0 
+CPUID(0x4FFFFFFE), Type 61 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 61 EDX = 0 
+CPUID(0x4FFFFFFE), Type 62 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 62 EDX = 0 
+CPUID(0x4FFFFFFE), Type 63 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 64 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 65 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 65 EDX = 0 
+CPUID(0x4FFFFFFE), Type 66 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 67 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 67 EDX = 0 
+CPUID(0x4FFFFFFE), Type 68 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 68 EDX = 0 
+CPUID(0x4FFFFFFE), Type 69 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 69 EDX = 0 
+CPUID(0x4FFFFFFE), Type 70 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+CPUID(0x4FFFFFFE), Type 71 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+CPUID(0x4FFFFFFE), Type 72 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+CPUID(0x4FFFFFFE), Type 73 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+CPUID(0x4FFFFFFE), Type 74 Total Exit Counter = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+
+Leaf Node CPUID(0x4FFFFFFF)
+
+CPUID(0x4FFFFFFF), Type 0 Total Exit Cycles = 1896924 
+EAX = 0  EBX = 0 ECX = 1896924 EDX = 0 
+CPUID(0x4FFFFFFF), Type 1 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 2 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 3 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 4 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 5 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 6 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 7 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 8 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 9 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 10 Total Exit Cycles = 19631560 
+EAX = 0  EBX = 0 ECX = 19631560 EDX = 0 
+CPUID(0x4FFFFFFF), Type 11 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 12 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 13 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 14 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 15 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 16 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 17 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 18 Total Exit Cycles = 33878 
+EAX = 0  EBX = 0 ECX = 33878 EDX = 0 
+CPUID(0x4FFFFFFF), Type 19 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 20 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 21 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 22 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 23 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 24 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 25 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 26 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 27 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 28 Total Exit Cycles = 8474638 
+EAX = 0  EBX = 0 ECX = 8474638 EDX = 0 
+CPUID(0x4FFFFFFF), Type 29 Total Exit Cycles = 144 
+EAX = 0  EBX = 0 ECX = 144 EDX = 0 
+CPUID(0x4FFFFFFF), Type 30 Total Exit Cycles = 12252058 
+EAX = 0  EBX = 0 ECX = 12252058 EDX = 0 
+CPUID(0x4FFFFFFF), Type 31 Total Exit Cycles = 630274 
+EAX = 0  EBX = 0 ECX = 630274 EDX = 0 
+CPUID(0x4FFFFFFF), Type 32 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 33 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 34 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 35 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 36 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 37 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 38 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 39 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 40 Total Exit Cycles = 11450792 
+EAX = 0  EBX = 0 ECX = 11450792 EDX = 0 
+CPUID(0x4FFFFFFF), Type 41 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 42 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 43 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 44 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 45 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 46 Total Exit Cycles = 744 
+EAX = 0  EBX = 0 ECX = 744 EDX = 0 
+CPUID(0x4FFFFFFF), Type 47 Total Exit Cycles = 234 
+EAX = 0  EBX = 0 ECX = 234 EDX = 0 
+CPUID(0x4FFFFFFF), Type 48 Total Exit Cycles = 130223580 
+EAX = 0  EBX = 0 ECX = 130223580 EDX = 0 
+CPUID(0x4FFFFFFF), Type 49 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 50 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 51 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 52 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 53 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 54 Total Exit Cycles = 900 
+EAX = 0  EBX = 0 ECX = 900 EDX = 0 
+CPUID(0x4FFFFFFF), Type 55 Total Exit Cycles = 190 
+EAX = 0  EBX = 0 ECX = 190 EDX = 0 
+CPUID(0x4FFFFFFF), Type 56 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 57 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 58 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 59 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 60 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 61 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 62 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 63 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 64 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 65 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 66 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 67 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 68 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 69 Total Exit Cycles = 107646046 
+EAX = 0  EBX = 0 ECX = 107646046 EDX = 0 
+CPUID(0x4FFFFFFF), Type 70 Total Exit Cycles = 9223372071218292130 
+EAX = 0  EBX = 2147483656 ECX = 3777954 EDX = 0 
+CPUID(0x4FFFFFFF), Type 71 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 72 Total Exit Cycles = 18446613595022676480 
+EAX = 0  EBX = 4294936916 ECX = 2419577344 EDX = 0 
+CPUID(0x4FFFFFFF), Type 73 Total Exit Cycles = 1 
+EAX = 0  EBX = 0 ECX = 1 EDX = 0 
+CPUID(0x4FFFFFFF), Type 74 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+
+-----Statics Overview For Each Basic Exit-----
+
+Exit Type     Exit Counter     Exit Cycles       Cycles/Exit 
+0             18522            1896924           102               
+1             503791           0                 0                 
+2             0                0                 0                 
+3             0                0                 0                 
+4             0                0                 0                 
+5             0                0                 0                 
+6             0                0                 0                 
+7             130556           0                 0                 
+8             0                0                 0                 
+9             0                0                 0                 
+10            359976           19631560          54                
+11            0                0                 0                 
+12            209696           0                 0                 
+13            0                0                 0                 
+14            0                0                 0                 
+15            0                0                 0                 
+16            0                0                 0                 
+17            0                0                 0                 
+18            111              33878             305               
+19            0                0                 0                 
+20            0                0                 0                 
+21            0                0                 0                 
+22            0                0                 0                 
+23            0                0                 0                 
+24            0                0                 0                 
+25            0                0                 0                 
+26            0                0                 0                 
+27            0                0                 0                 
+28            131565           8474638           64                
+29            2                144               72                
+30            136707           12252058          89                
+31            1933             630274            326               
+32            825229           0                 0                 
+33            0                0                 0                 
+34            0                0                 0                 
+35            0                0                 0                 
+36            0                0                 0                 
+37            0                0                 0                 
+38            0                0                 0                 
+39            0                0                 0                 
+40            51818            11450792          220               
+41            0                0                 0                 
+42            0                0                 0                 
+43            0                0                 0                 
+44            0                0                 0                 
+45            0                0                 0                 
+46            5                744               148               
+47            2                234               117               
+48            1135514          130223580         114               
+49            272252           0                 0                 
+50            0                0                 0                 
+51            0                0                 0                 
+52            0                0                 0                 
+53            0                0                 0                 
+54            9                900               100               
+55            3                190               63                
+56            0                0                 0                 
+57            0                0                 0                 
+58            0                0                 0                 
+59            0                0                 0                 
+60            0                0                 0                 
+61            0                0                 0                 
+62            0                0                 0                 
+63            0                0                 0                 
+64            0                0                 0                 
+65            0                0                 0                 
+66            0                0                 0                 
+67            0                0                 0                 
+68            0                0                 0                 
+69            0                107646046         0                 
+70            0                9223372071218292130 0                 
+71            0                0                 0                 
+72            0                18446613595022676480 0                 
+73            0                1                 0                 
+74            0                0                 0  
