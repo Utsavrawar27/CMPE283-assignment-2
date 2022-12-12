@@ -1,0 +1,315 @@
+Leaf Node CPUID(0x4FFFFFFC)
+
+CPUID(0x4FFFFFFC), Total Exits = 3244386 
+EAX = 3244386  EBX = 0 ECX = 0 EDX = 0 
+
+Test Leaf Node CPUID(0x4FFFFFFD)
+
+CPUID(0x4FFFFFFD), Total Exit Cycles = 77603820 
+EAX = 0  EBX = 0 ECX = 77603820 EDX = 0 
+
+Leaf Node CPUID(0x4FFFFFFE)
+
+CPUID(0x4FFFFFFE), Type 0 Total Exits = 18371 
+EAX = 18371  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 1 Total Exits = 264419 
+EAX = 264419  EBX = 0 ECX = 1 EDX = 0 
+CPUID(0x4FFFFFFE), Type 2 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 2 EDX = 0 
+CPUID(0x4FFFFFFE), Type 3 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 4 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 5 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 6 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 7 Total Exits = 70516 
+EAX = 70516  EBX = 0 ECX = 7 EDX = 0 
+CPUID(0x4FFFFFFE), Type 8 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 8 EDX = 0 
+CPUID(0x4FFFFFFE), Type 9 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 9 EDX = 0 
+CPUID(0x4FFFFFFE), Type 10 Total Exits = 451552 
+EAX = 451552  EBX = 0 ECX = 10 EDX = 0 
+CPUID(0x4FFFFFFE), Type 11 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 12 Total Exits = 197610 
+EAX = 197610  EBX = 0 ECX = 12 EDX = 0 
+CPUID(0x4FFFFFFE), Type 13 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 13 EDX = 0 
+CPUID(0x4FFFFFFE), Type 14 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 14 EDX = 0 
+CPUID(0x4FFFFFFE), Type 15 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 15 EDX = 0 
+CPUID(0x4FFFFFFE), Type 16 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 17 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 18 Total Exits = 137 
+EAX = 137  EBX = 0 ECX = 18 EDX = 0 
+CPUID(0x4FFFFFFE), Type 19 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 19 EDX = 0 
+CPUID(0x4FFFFFFE), Type 20 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 20 EDX = 0 
+CPUID(0x4FFFFFFE), Type 21 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 21 EDX = 0 
+CPUID(0x4FFFFFFE), Type 22 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 22 EDX = 0 
+CPUID(0x4FFFFFFE), Type 23 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 23 EDX = 0 
+CPUID(0x4FFFFFFE), Type 24 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 24 EDX = 0 
+CPUID(0x4FFFFFFE), Type 25 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 25 EDX = 0 
+CPUID(0x4FFFFFFE), Type 26 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 26 EDX = 0 
+CPUID(0x4FFFFFFE), Type 27 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 27 EDX = 0 
+CPUID(0x4FFFFFFE), Type 28 Total Exits = 220929 
+EAX = 220929  EBX = 0 ECX = 28 EDX = 0 
+CPUID(0x4FFFFFFE), Type 29 Total Exits = 2 
+EAX = 2  EBX = 0 ECX = 29 EDX = 0 
+CPUID(0x4FFFFFFE), Type 30 Total Exits = 108277 
+EAX = 108277  EBX = 0 ECX = 30 EDX = 0 
+CPUID(0x4FFFFFFE), Type 31 Total Exits = 2572 
+EAX = 2572  EBX = 0 ECX = 31 EDX = 0 
+CPUID(0x4FFFFFFE), Type 32 Total Exits = 640278 
+EAX = 640278  EBX = 0 ECX = 32 EDX = 0 
+CPUID(0x4FFFFFFE), Type 33 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 34 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 35 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+CPUID(0x4FFFFFFE), Type 36 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 36 EDX = 0 
+CPUID(0x4FFFFFFE), Type 37 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 37 EDX = 0 
+CPUID(0x4FFFFFFE), Type 38 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+CPUID(0x4FFFFFFE), Type 39 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 39 EDX = 0 
+CPUID(0x4FFFFFFE), Type 40 Total Exits = 30195 
+EAX = 30195  EBX = 0 ECX = 40 EDX = 0 
+CPUID(0x4FFFFFFE), Type 41 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 41 EDX = 0 
+CPUID(0x4FFFFFFE), Type 42 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+CPUID(0x4FFFFFFE), Type 43 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 43 EDX = 0 
+CPUID(0x4FFFFFFE), Type 44 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 44 EDX = 0 
+CPUID(0x4FFFFFFE), Type 45 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 45 EDX = 0 
+CPUID(0x4FFFFFFE), Type 46 Total Exits = 5 
+EAX = 5  EBX = 0 ECX = 46 EDX = 0 
+CPUID(0x4FFFFFFE), Type 47 Total Exits = 2 
+EAX = 2  EBX = 0 ECX = 47 EDX = 0 
+CPUID(0x4FFFFFFE), Type 48 Total Exits = 1015354 
+EAX = 1015354  EBX = 0 ECX = 48 EDX = 0 
+CPUID(0x4FFFFFFE), Type 49 Total Exits = 224241 
+EAX = 224241  EBX = 0 ECX = 49 EDX = 0 
+CPUID(0x4FFFFFFE), Type 50 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 50 EDX = 0 
+CPUID(0x4FFFFFFE), Type 51 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 52 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 52 EDX = 0 
+CPUID(0x4FFFFFFE), Type 53 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 53 EDX = 0 
+CPUID(0x4FFFFFFE), Type 54 Total Exits = 3 
+EAX = 3  EBX = 0 ECX = 54 EDX = 0 
+CPUID(0x4FFFFFFE), Type 55 Total Exits = 3 
+EAX = 3  EBX = 0 ECX = 55 EDX = 0 
+CPUID(0x4FFFFFFE), Type 56 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 56 EDX = 0 
+CPUID(0x4FFFFFFE), Type 57 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 57 EDX = 0 
+CPUID(0x4FFFFFFE), Type 58 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 58 EDX = 0 
+CPUID(0x4FFFFFFE), Type 59 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 59 EDX = 0 
+CPUID(0x4FFFFFFE), Type 60 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 60 EDX = 0 
+CPUID(0x4FFFFFFE), Type 61 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 61 EDX = 0 
+CPUID(0x4FFFFFFE), Type 62 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 62 EDX = 0 
+CPUID(0x4FFFFFFE), Type 63 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 64 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 65 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 65 EDX = 0 
+CPUID(0x4FFFFFFE), Type 66 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFE), Type 67 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 67 EDX = 0 
+CPUID(0x4FFFFFFE), Type 68 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 68 EDX = 0 
+CPUID(0x4FFFFFFE), Type 69 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 69 EDX = 0 
+CPUID(0x4FFFFFFE), Type 70 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+CPUID(0x4FFFFFFE), Type 71 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+CPUID(0x4FFFFFFE), Type 72 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+CPUID(0x4FFFFFFE), Type 73 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+CPUID(0x4FFFFFFE), Type 74 Total Exits = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 4294967295 
+
+Leaf Node CPUID(0x4FFFFFFF)
+
+CPUID(0x4FFFFFFF), Type 0 Total Exit Cycles = 1431800 
+EAX = 0  EBX = 0 ECX = 1431800 EDX = 0 
+CPUID(0x4FFFFFFF), Type 1 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 2 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 3 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 4 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 5 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 6 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 7 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 8 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 9 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 10 Total Exit Cycles = 21929852 
+EAX = 0  EBX = 0 ECX = 21929852 EDX = 0 
+CPUID(0x4FFFFFFF), Type 11 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 12 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 13 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 14 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 15 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 16 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 17 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 18 Total Exit Cycles = 40652 
+EAX = 0  EBX = 0 ECX = 40652 EDX = 0 
+CPUID(0x4FFFFFFF), Type 19 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 20 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 21 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 22 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 23 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 24 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 25 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 26 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 27 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 28 Total Exit Cycles = 10528056 
+EAX = 0  EBX = 0 ECX = 10528056 EDX = 0 
+CPUID(0x4FFFFFFF), Type 29 Total Exit Cycles = 160 
+EAX = 0  EBX = 0 ECX = 160 EDX = 0 
+CPUID(0x4FFFFFFF), Type 30 Total Exit Cycles = 7908746 
+EAX = 0  EBX = 0 ECX = 7908746 EDX = 0 
+CPUID(0x4FFFFFFF), Type 31 Total Exit Cycles = 1005814 
+EAX = 0  EBX = 0 ECX = 1005814 EDX = 0 
+CPUID(0x4FFFFFFF), Type 32 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 33 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 34 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 35 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 36 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 37 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 38 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 39 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 40 Total Exit Cycles = 5234210 
+EAX = 0  EBX = 0 ECX = 5234210 EDX = 0 
+CPUID(0x4FFFFFFF), Type 41 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 42 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 43 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 44 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 45 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 46 Total Exit Cycles = 592 
+EAX = 0  EBX = 0 ECX = 592 EDX = 0 
+CPUID(0x4FFFFFFF), Type 47 Total Exit Cycles = 274 
+EAX = 0  EBX = 0 ECX = 274 EDX = 0 
+CPUID(0x4FFFFFFF), Type 48 Total Exit Cycles = 98047540 
+EAX = 0  EBX = 0 ECX = 98047540 EDX = 0 
+CPUID(0x4FFFFFFF), Type 49 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 50 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 51 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 52 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 53 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 54 Total Exit Cycles = 242 
+EAX = 0  EBX = 0 ECX = 242 EDX = 0 
+CPUID(0x4FFFFFFF), Type 55 Total Exit Cycles = 218 
+EAX = 0  EBX = 0 ECX = 218 EDX = 0 
+CPUID(0x4FFFFFFF), Type 56 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 57 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 58 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 59 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 60 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 61 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 62 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 63 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 64 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 65 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 66 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 67 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 68 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 69 Total Exit Cycles = 77620764 
+EAX = 0  EBX = 0 ECX = 77620764 EDX = 0 
+CPUID(0x4FFFFFFF), Type 70 Total Exit Cycles = 9223372071217758956 
+EAX = 0  EBX = 2147483656 ECX = 3244780 EDX = 0 
+CPUID(0x4FFFFFFF), Type 71 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
+CPUID(0x4FFFFFFF), Type 72 Total Exit Cycles = 18446630740536149248 
+EAX = 0  EBX = 4294940908 ECX = 2423604480 EDX = 0 
+CPUID(0x4FFFFFFF), Type 73 Total Exit Cycles = 1 
+EAX = 0  EBX = 0 ECX = 1 EDX = 0 
+CPUID(0x4FFFFFFF), Type 74 Total Exit Cycles = 0 
+EAX = 0  EBX = 0 ECX = 0 EDX = 0 
