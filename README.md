@@ -1,5 +1,7 @@
-# FA22: CMPE-283 Sec 48 - Virtual Technologies Assignment-2
-Below are the steps explaind to execute Assignment-2 on Ubuntu VM hosted on VMWare Workstation.
+# FA22: CMPE-283 Sec 48 - Virtual Technologies Assignment-3
+
+## Start with your Assignment-2 Environment:
+Below are the steps explaind to execute Assignment-3 on Ubuntu VM hosted on VMWare Workstation.
 
 ## Contributor:
 Utsav Rawat
@@ -66,7 +68,11 @@ By navigating to the virtual machine's settings, as shown below.
 ![image](https://user-images.githubusercontent.com/40047632/205770965-5f9fe0d1-08e6-4650-a2ce-06df7dfc2513.png)
 
 ## Modify the kernal code
-We have to modified /linux/arch/x86/kvm/cpuid.c file and /linux/arch/x86/kvm/vmx/vmx.c file. Apply the required logic to support for cpuid leaf nodes 0x4FFFFFFC and 0x4FFFFFFD. 
+We have to modified /linux/arch/x86/kvm/cpuid.c file and /linux/arch/x86/kvm/vmx/vmx.c file. Apply the required logic to support for CPUID leaf 0x4FFFFFFF, 0x4FFFFFFE, 0x4FFFFFFD, 0x4FFFFFFC
+
+![image](https://user-images.githubusercontent.com/40047632/206938329-464f0085-b61a-406f-a715-d596cdb9a07f.png)
+
+![image](https://user-images.githubusercontent.com/40047632/206938333-a26837be-7a52-4c7c-b8f9-948b2121a881.png)
 
 **10. After modification we need to rebuild the kernal using make command.**
 - `make modules -j 4`
@@ -106,17 +112,25 @@ We have to modified /linux/arch/x86/kvm/cpuid.c file and /linux/arch/x86/kvm/vmx
 ![image](https://user-images.githubusercontent.com/40047632/205776554-edb061d3-e55e-45cb-9638-7133b676a980.png)
 
 
-**18. Test the leaf node eax=0x4FFFFFFC and eax=0x4FFFFFFD using cpuid tool**
-- `cpuid -l 0x4FFFFFFC`
-- `cpuid -l 0x4FFFFFFD`
+**18. Test the leaf node eax=0x4FFFFFFE and eax=0x4FFFFFFF using cpuid tool**
+- `cpuid -l 0x4FFFFFFE`
+- `cpuid -l 0x4FFFFFFF`
+
+# Answer to Question-3:
+1. Does the number of exits increase at a stable rate?
+Ans- ``
+
+2. Are there more exits performed during certain VM operations?
+Ans- ``
+
+3. Approximately how many exits does a full VM boot entail?
+Ans- ``
+
+4. Of the exit types defined in the SDM, which are the most frequent? Least?
+Ans- ``
 
 ## Output Result:
 
-![image](https://user-images.githubusercontent.com/40047632/205776611-30cad8dc-5973-42db-ba5e-59d9fee22df5.png)
-
-![image](https://user-images.githubusercontent.com/40047632/205776703-c644fec3-f73a-406c-9839-6ccf8fa906c6.png)
-
-![image](https://user-images.githubusercontent.com/40047632/205776746-51fa6696-5345-4b01-9050-bb1a02c68c9d.png)
 
 
 
