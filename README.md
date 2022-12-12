@@ -70,7 +70,7 @@ By navigating to the virtual machine's settings, as shown below.
 ## Modify the kernal code
 We have to modified /linux/arch/x86/kvm/cpuid.c file and /linux/arch/x86/kvm/vmx/vmx.c file. Apply the required logic to support for CPUID leaf 0x4FFFFFFF, 0x4FFFFFFE, 0x4FFFFFFD, 0x4FFFFFFC
 
-![image](https://user-images.githubusercontent.com/40047632/206938329-464f0085-b61a-406f-a715-d596cdb9a07f.png)
+![image](https://user-images.githubusercontent.com/40047632/206939317-55ae651a-8e52-4d46-91d0-10f3f5b2e560.png)
 
 ![image](https://user-images.githubusercontent.com/40047632/206938333-a26837be-7a52-4c7c-b8f9-948b2121a881.png)
 
@@ -117,16 +117,16 @@ We have to modified /linux/arch/x86/kvm/cpuid.c file and /linux/arch/x86/kvm/vmx
 - `cpuid -l 0x4FFFFFFF`
 
 # Answer to Question-3:
-1. Does the number of exits increase at a stable rate?
+1. Does the number of exits increase at a stable rate? <br />
 Ans- ``
 
-2. Are there more exits performed during certain VM operations?
+2. Are there more exits performed during certain VM operations? <br />
 Ans- ``
 
-3. Approximately how many exits does a full VM boot entail?
+3. Approximately how many exits does a full VM boot entail? <br />
 Ans- ``
 
-4. Of the exit types defined in the SDM, which are the most frequent? Least?
+4. Of the exit types defined in the SDM, which are the most frequent? Least? <br />
 Ans- ``
 
 ## Output Result:
